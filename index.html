@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote</title>
     <script src="color-modes.js"></script>
@@ -14,13 +15,27 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col">
                 <div class=" d-flex flex-column align-items-center row-gap-3 justify-content-center bg-mode dark:bg-zinc-800">
-                    <h1 class="fs-1 font-bold mb-6 dark:text-white">Quote of the Day</h1>
-                    <p class="mb-4 fs-3 text-center">Press the button below to receive a random quote!</p>
-                    <button id="quoteBtn" class="btn ">
-                        New Quote
-                    </button>
-                    
-                    <p id="quote" class="mt-4 text-center fs-4"></p>
+                    <div class="card d-flex align-items-center justify-content-center">
+                        <h1 class="fs-1 font-bold mb-6 dark:text-white">Quote of the Day</h1>
+                        <p class="mb-4 fs-3 text-center">Press the button below to receive a random quote!</p>
+                        <!-- <button id="quoteBtn" class="btn ">
+                            New Quote
+                        </button> -->
+                        <button type="button" id="quoteBtn" class="btn">
+                            <strong>Edit Art</strong>
+                            <div id="container-stars">
+                              <div id="stars"></div>
+                            </div>
+                          
+                            <div id="glow">
+                              <div class="circle"></div>
+                              <div class="circle"></div>
+                            </div>
+                          </button>
+                          
+                        
+                        <p id="quote" class="mt-4 text-center fs-4"></p>
+                        </div>
                 </div>
             
             </div>
